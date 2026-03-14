@@ -1,0 +1,1 @@
+tellraw @a [{"text":"Omni Sword Datapack Loaded","bold":true,"color":"#7300ff"}]

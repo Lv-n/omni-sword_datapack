@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "hit_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": "{omni:1b}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "omni:strike"
+  }
+}
