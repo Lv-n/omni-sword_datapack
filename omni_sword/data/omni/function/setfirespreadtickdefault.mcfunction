@@ -1,0 +1,1 @@
+gamerule fire_spread_radius_around_player 128
