@@ -1,5 +1,4 @@
-effect give @s instant_health 1 255
-
-effect give @s resistance 1 255
-
+execute as @s run effect give @s minecraft:instant_health 4 0
+execute as @s run effect give @s minecraft:resistance 3 0
+execute as @s run effect give @s minecraft:saturation 2 0
 advancement revoke @s only omni:heal
