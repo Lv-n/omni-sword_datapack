@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": { "is_sneaking": true },
+              "slots": {
+                "weapon.mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": { "omni": true }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "omni:heal"
+  }
+}
